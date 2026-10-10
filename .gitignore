@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Gradle files
 .gradle/
 build/
@@ -5,31 +6,70 @@ build/
 
 # Local configuration file (sdk path, etc)
 local.properties
-
-# Log/OS Files
-*.log
-
-# Android Studio generated files and folders
-captures/
-.externalNativeBuild/
-.cxx/
-*.aab
+# Built application files
 *.apk
-output-metadata.json
+*.aar
+*.aab
+*.dex
 
-# IntelliJ
-*.iml
+# Files for Bundles
+*.apks
+
+# Generated files
+/build/
+**/build/
+.gradle/
+**/ .gradle/
+
+# Local configuration file (sdk path, etc.)
+local.properties
+**/local.properties
+
+# Intellij project files
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+.idea/codeStyles/
+.idea/inspectionProfiles/
+.idea/runConfigurations/
+.idea/sonarlint/
+.idea/watcherTasks.xml
+.idea/.name
+.idea/compiler.xml
+.idea/jarRepositories.xml
+.idea/misc.xml
+.idea/gradle.xml
+.idea/encodings.xml
 .idea/
-misc.xml
-deploymentTargetDropDown.xml
-render.experimental.xml
 
-# Keystore files
-*.jks
-*.keystore
+# Native C/C++ libraries and build folders
+.cxx/
+**/ .cxx/
+.externalNativeBuild/
+**/ .externalNativeBuild/
 
-# Google Services (e.g. APIs or Firebase)
-google-services.json
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
 
-# Android Profiling
-*.hprof
+# Ignore docx, pdf, and php files
+*.docx
+*.doc
+*.pdf
+*.php
+~$*.docx
+.artifacts/
+
+# Editor swap, log and temp files
+*.swp
+*.swo
+*~
+*.log
