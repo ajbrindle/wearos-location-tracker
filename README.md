@@ -38,8 +38,6 @@ LocationUpdate/
 │   └── src/main/java/com/sk7software/locationupdate/phone/
 │       ├── PhoneMainActivity.kt  # URL configuration & diagnostics
 │       └── WatchBridgeService.kt # BLE listener & HTTP upload bridge
-├── receiver.php          # Backend PHP script handling MySQL persistence
-├── Approach.docx         # Official low-power architecture documentation
 └── README.md
 ```
 
